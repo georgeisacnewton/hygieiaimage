@@ -1,1 +1,0 @@
-# hygieiaimage

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html class="no-js" ng-app="hygieia-dashboard">
+<head>
+    <meta charset="utf-8">
+    <title>Devops Dashboard</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+
+    <script>
+        var HygieiaConfig = {"module":"hygieia-dashboard","refresh":60};
+    </script>
+</head>
+<body>
+
+<div id="container" class="screen-fade" ui-view></div>
+
+
+
+<!-- bower:js -->
+<script src="bower_components/bower.js"></script>
+<!-- endinject -->
+
+
+<!-- hygieia:js -->
+<script src="app/app.js"></script>
+<!-- endinject -->
+
+<script src="template-cache.js"></script>
+</body>
+</html>
